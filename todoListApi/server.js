@@ -8,7 +8,7 @@ var express = require('express'),
   User = require('./api/models/userModel'),
   bodyParser = require('body-parser'),
   jsonwebtoken = require("jsonwebtoken"),
-  public_key = fs.readFileSync('public.pem');;
+  public_key = fs.readFileSync('public.pem');
 
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost/Tododb');
