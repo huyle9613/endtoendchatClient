@@ -1,5 +1,5 @@
 'use strict';
-
+const fs= require('fs');
 var mongoose = require('mongoose'),
   jwt = require('jsonwebtoken'),
   bcrypt = require('bcrypt'),
